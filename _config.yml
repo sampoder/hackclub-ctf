@@ -1,0 +1,8 @@
+# Build settings
+plugins:
+  - jekyll-feed
+
+collections:
+  events:
+    sort_by: order
+    output: true

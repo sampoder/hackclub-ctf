@@ -1,0 +1,247 @@
+/**
+*** SIMPLE GRID
+*** (C) ZACH COLE 2016
+**/
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* ==== GRID SYSTEM ==== */
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.row {
+  position: relative;
+  width: 100%;
+}
+
+.row [class^="col"] {
+  float: left;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-height: 0.125rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  width: 84%;
+  margin-left: 0%;
+  margin-right: 8%;
+}
+
+h2,hr {
+  margin-left: 3%;
+}
+
+.fiscal-sponsor-info {
+  margin-left: 3%;
+}
+
+.col-1-sm {
+  width: 4.33%;
+}
+
+.col-2-sm {
+  width: 12.66%;
+}
+
+.col-3-sm {
+  width: 21%;
+}
+
+.col-4-sm {
+  width: 29.33%;
+}
+
+.col-5-sm {
+  width: 37.66%;
+}
+
+.col-6-sm {
+  width: 46%;
+}
+
+.col-7-sm {
+  width: 54.33%;
+}
+
+.col-8-sm {
+  width: 62.66%;
+}
+
+.col-9-sm {
+  width: 71%;
+}
+
+.col-10-sm {
+  width: 79.33%;
+}
+
+.col-11-sm {
+  width: 87.66%;
+}
+
+.col-12-sm {
+  width: 96%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hidden-sm {
+  display: none;
+}
+
+.container {
+  padding: 0px 3% 30px;
+}
+
+.text-content{
+  width: 90%;
+}
+
+@media only screen and (min-width: 33.75em) {
+  /* 540px */
+  .container {
+  }
+}
+
+@media only screen and (min-width: 45em) {
+  .text-content{
+    width: 60%;
+  }
+  /* 720px */
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    margin-left: 0.7% !important;
+    margin-right: 0.7% !important;
+  }
+
+  h2,hr {
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+  }
+
+  .col-1 {
+    width: 4.33%;
+  }
+
+  .col-2 {
+    width: 12.66%;
+  }
+
+  .col-3 {
+    width: 21%;
+  }
+
+  .col-3-full {
+    width: 15%;
+    margin: 0 !important;
+  }
+
+  .col-4 {
+    width: 27.7%;
+  }
+
+  .col-5 {
+    width: 37.66%;
+  }
+
+  .col-6 {
+    width: 46%;
+  }
+
+  .col-7 {
+    width: 54.33%;
+  }
+
+  .col-8 {
+    width: 59.5%;
+  }
+
+  .col-9 {
+    width: 71%;
+  }
+
+  .col-9-full {
+    width: 75%;
+    margin: 0 !important;
+  }
+
+  .col-10 {
+    width: 79.33%;
+  }
+
+  .col-11 {
+    width: 87.66%;
+  }
+
+  .col-12 {
+    width: 96%;
+  }
+
+  .hidden-sm {
+    display: block;
+  }
+  .hidden-lm {
+    display: none;
+  }
+  .container {
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  /* 960px */
+  .container {
+  }
+}
+
+.section {
+  padding-top: 30px;
+}
