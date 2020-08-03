@@ -1,10 +1,9 @@
----
-title: Home
----
+--- title: {{ page.title }} ---
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,95 +13,96 @@ title: Home
     <link rel="stylesheet" href="assets/simple-grid.css" />
 
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
     <title>Hack Club CTF</title>
-    <link
-      rel="icon"
-      type="image/png"
-      href="https://assets.hackclub.com/favicons/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" href="https://assets.hackclub.com/favicons/favicon-32x32.png" />
 
     <link rel="stylesheet" href="fonts/style.css" />
-  
+
     <!-- Primary Meta Tags -->
     <title>Hack Club CTF</title>
     <meta name="title" content="Hack Club CTF" />
-    <meta
-      name="description"
-      content="A CTF for Hack Clubbers by Hack Clubbers"
-    />
+    <meta name="description" content="A CTF for Hack Clubbers by Hack Clubbers" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    
+
     <meta property="og:title" content="Hack Club CTF" />
-    <meta
-      property="og:description"
-      content="A CTF for Hack Clubbers by Hack Clubbers"
-    />
-    <meta
-      property="og:image"
-      content="https://workshop-cards.hackclub.com/Hack%20Club%20CTF.png?brand=Events&fontSize=225px&caption=date%20will%BE%20here"
-    />
+    <meta property="og:description" content="A CTF for Hack Clubbers by Hack Clubbers" />
+    <meta property="og:image" content="https://workshop-cards.hackclub.com/Hack%20Club%20CTF.png?brand=Events&fontSize=225px&caption=date%20will%BE%20here" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    
+
     <meta property="twitter:title" content="Hack Club CTF" />
-    <meta
-      property="twitter:description"
-      content="A CTF for Hack Clubbers by Hack Clubbers"
-    />
-    <meta
-      property="twitter:image"
-      content="https://workshop-cards.hackclub.com/Hack%20Club%20CTF.png?brand=Events&fontSize=225px&caption=date%20will%BE%20here"
-    />
-  </head>
-  <body>
+    <meta property="twitter:description" content="A CTF for Hack Clubbers by Hack Clubbers" />
+    <meta property="twitter:image" content="https://workshop-cards.hackclub.com/Hack%20Club%20CTF.png?brand=Events&fontSize=225px&caption=date%20will%BE%20here" />
+</head>
+
+<body>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      body,
-      html {
-        height: 100%;
-      }
-
-      .bgimg-1 {
-        position: relative;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("assets/image-3.png");
-        height: 17vw;
-      }
-
-      .caption {
-        position: absolute;
-        left: 0;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        color: #000;
-      }
-
-      .caption span.border {
-        font-family: Metropolis Semi Bold;
-        color: #33d6a6;
-        padding: 18px;
-        font-size: 8vw;
-      }
-
+        body,
+        html {
+            height: 100%;
+        }
+        
+        .bgimg-1 {
+            position: relative;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("assets/image-3.png");
+            height: 17vw;
+        }
+        
+        .caption {
+            position: absolute;
+            left: 0;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+        }
+        
+        .caption span.border {
+            font-family: Metropolis Semi Bold;
+            color: #33d6a6;
+            padding: 18px;
+            font-size: 8vw;
+        }
+        
+        .back,
+        .back a {
+            color: white;
+            text-decoration: none;
+            background-color: #338eda;
+            cursor: pointer;
+        }
+        
+        .back:hover,
+        .back a:hover {
+            background-color: blue;
+        }
+        
+        .back a:after {
+            text-decoration: none;
+            color: white;
+        }
     </style>
 
     <div class="bgimg-1">
-      <div class="caption">
-        <span class="border">{{ page.title }}</span>
-      </div>
+        <div class="caption">
+            <span class="border">{{ page.title }}</span>
+        </div>
     </div>
-    <div class = "center" style="max-width: 70vw; overflow-x: hidden; text-align: center; margin-top: 20px;">
+    <div class="center" style="max-width: 70vw; overflow-x: hidden; text-align: center; margin-top: 20px;">
         {{ content }}
     </div>
-  </body>
+    <div class="center" width="100vw">
+        <br>
+        <a class="card back center" href="/index">Back</a>
+    </div>
+</body>
+
 </html>
