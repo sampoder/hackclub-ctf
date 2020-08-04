@@ -7,14 +7,14 @@ layout: default
 
 1) Denial of Service is not okay, other people are playing too.
 
-2) Illegal tools are not permitted, dont get us in trouble.
+2) Illegal tools are not permitted, don't get us in trouble.
 
-3) Don't look up the solutions. If you're stuck use #ctf-war-room intead.
+3) Don't look up the solutions. If you're stuck, ask in #ctf-war-room instead.
 
-4) Dont attack the server itself. You do not have permission.
+4) Don't attack the server itself. You do not have permission.
 
 5) Never go further than you need to, don't be greedy.
 
-6) SSH is open. That does not mean its for you.
+6) SSH is open. That does not mean it's for you.
 
-7) Dont run commands that you dont understand.
+7) Don't run commands that you dont understand.
