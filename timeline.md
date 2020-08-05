@@ -2,9 +2,9 @@
 title: Timeline
 layout: default
 ---
-
+<p style = "text-align: center">
 Here's a schedule of events! Times are in EST unless otherwise noted.
-
+</p>
 <div class="row section" style = "padding-top: 5px">
 <div id="events"></div></div>
     

@@ -3,6 +3,7 @@ body {
   font-family: Metropolis Regular;
   color: #ffffff;
   background-color: #17171d;
+  
 }
 
 h1 {
@@ -80,4 +81,9 @@ h2 {
 
 p {
   word-wrap: break-word;
+  line-height: 25px;
+}
+
+a{
+  color: yellow
 }
