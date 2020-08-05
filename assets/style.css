@@ -43,8 +43,8 @@ h2 {
   margin-block-start: 0em;
 }
 
-.card:hover { 
-  transform: scale(1.03); 
+.card:hover {
+  transform: scale(1.03);
 }
 
 .sidenav {
@@ -59,8 +59,8 @@ h2 {
   text-align: center;
 }
 
-.button:hover { 
-  transform: scale(1.03); 
+.button:hover {
+  transform: scale(1.03);
 }
 
 .button {
@@ -75,9 +75,9 @@ h2 {
   margin: 9px 2px;
   width: 65%;
   border-radius: 20px;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-p{
+p {
   word-wrap: break-word;
 }

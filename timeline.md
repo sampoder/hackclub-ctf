@@ -37,4 +37,3 @@ Here's a schedule of events! Times are in EST unless otherwise noted.
         document.getElementById("events").innerHTML = `Uh oh! We weren't able to get events. ${err}`
     }
 </script>
-<br>
