@@ -3,7 +3,7 @@ title: Timeline
 layout: default
 ---
 <p style = "text-align: center">
-Here's a schedule of events! Times are in EST unless otherwise noted.
+Here's a schedule of events! Times are in EDT unless otherwise noted.
 </p>
 <div class="row section" style = "padding-top: 5px">
 <div id="events"></div></div>
@@ -23,7 +23,7 @@ Here's a schedule of events! Times are in EST unless otherwise noted.
                 background: #ed213a; /* fallback for old browsers */
                 background: linear-gradient(to right, #ec3750, #e9485e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
                     <div class="card-container" style="text-align: left;">
-                        <h4><b>${data[i]["Date"]}, ${data[i]["Time"]} EST</b></h4>
+                        <h4><b>${data[i]["Date"]}, ${data[i]["Time"]} EDT</b></h4>
                         <p>${data[i]["Action"]}</p>
                     </div>
                 </div>`
